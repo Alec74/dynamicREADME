@@ -23,9 +23,9 @@ function generateMarkdown(data) {
   * ${data.learn}
   
   ## Table of Contents
-  * [Installation](installation)
+  * [Installation](#installation)
   * [Usage](#usage)
-  * [Credits](#credits)
+  * [Contributing](#contributing)
   * [License](#license)
   
   ## Installation

@@ -116,16 +116,7 @@ function init() {
             },
         ])
         .then((response) => {
-            // console.log(response.title);
-            // console.log(response.motiv);
-            // console.log(response.why);
-            // console.log(response.problem);
-            // console.log(response.standout);
-            // console.log(response.learn);
-            // console.log(response.install);
-            // console.log(response.usage);
-            // console.log(response.contrib);
-            console.log(generateMarkdown(response))
+            writeToFile('README.md', generateMarkdown(response));
         });
 };
 
