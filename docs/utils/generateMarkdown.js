@@ -43,6 +43,10 @@ function generateMarkdown(data) {
   ## License
 
   ${data.license}
+
+  ## Test
+
+  ${data.test}
 `;
 }
 

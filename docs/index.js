@@ -13,7 +13,8 @@ const questions = [
     'What are the steps to install your project? ==>',
     'Please provide instructions for usage: ==>',
     'If you would like other devs to be able to contribute, please explain how to do so: ==>',
-    'Select a license from these options:'
+    'Select a license from these options:',
+    'Please provide a test/ for your app and explain how to run them: ==>'
 ];
 
 // TODO: Create a function to write README file
@@ -113,6 +114,11 @@ function init() {
                 
                 ==> `,
                 name: 'license',
+            },
+            {
+                type: 'input',
+                message: questions[10],
+                name: 'test',
             },
         ])
         .then((response) => {
