@@ -24,15 +24,16 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   if (license){
-    return `## ${license} License ${renderLicenseBadge(license)}
-    ${renderLicenseLink(license)}
-    `
+    return `## License
+  Notice: This application is covered under the ${license} License
+  ${renderLicenseLink(license)}
+  `
   }
 }
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}
+  return `# ${data.title} ${renderLicenseBadge(data.license)}
 
   ## Description
 
@@ -60,12 +61,18 @@ function generateMarkdown(data) {
 
   ${data.contrib}
 
-  ${renderLicenseSection(data.license)}
-
   ## Test
 
   ${data.test}
   
+  ## Questions
+
+  ${data.questions}
+
+  * Github Profile: [${data.username}](https://github.com/${data.username})
+  * ${data.email}
+  
+  ${renderLicenseSection(data.license)}
 `;
 }
 
