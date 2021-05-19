@@ -41,7 +41,6 @@ function generateMarkdown(data) {
   * ${data.why}
   * ${data.problem}
   * ${data.standout}
-  * ${data.learn}
   
   ## Table of Contents
   * [Installation](#installation)

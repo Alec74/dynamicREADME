@@ -9,7 +9,6 @@ const questions = [
     'Why did you build this project? ==>',
     'What problem does it solve? ==>', 
     'What makes your project standout? ==>', 
-    'What did you learn? ==>',
     'What are the steps to install your project? ==>',
     'Please provide instructions for usage: ==>',
     'If you would like other devs to be able to contribute, please explain how to do so: ==>',
@@ -60,26 +59,21 @@ function init() {
             {
                 type: 'input',
                 message: questions[5],
-                name: 'learn',
-            },
-            {
-                type: 'input',
-                message: questions[6],
                 name: 'install',
             },
             {
                 type: 'input',
-                message: questions[7],
+                message: questions[6],
                 name: 'usage',
             },
             {
                 type: 'input',
-                message: questions[8],
+                message: questions[7],
                 name: 'contrib',
             },
             {
                 type: 'input',
-                message: `${questions[9]}
+                message: `${questions[8]}
                 Academic Free License v3.0,
                 Apache license 2.0,
                 Artistic license 2.0,
@@ -120,22 +114,22 @@ function init() {
             },
             {
                 type: 'input',
-                message: questions[10],
+                message: questions[9],
                 name: 'test',
             },
             {
                 type: 'input',
-                message: questions[11],
+                message: questions[10],
                 name: 'username',
             },
             {
                 type: 'input',
-                message: questions[12],
+                message: questions[11],
                 name: 'email',
             },
             {
                 type: 'input',
-                message: questions[13],
+                message: questions[12],
                 name: 'questions',
             },
         ])
