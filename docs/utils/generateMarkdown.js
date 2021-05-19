@@ -13,7 +13,7 @@ function renderLicenseBadge(license) {
 function renderLicenseLink(license) {
   if (license){
     return `
-  [License](../LICENSE)
+  [Link](../LICENSE)
     `;
   }else{
     return '';
@@ -25,7 +25,7 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
   if (license){
     return `## License
-  Notice: This application is covered under the ${license} License
+  Notice: This application is licensed under ${license}
   ${renderLicenseLink(license)}
   `
   }

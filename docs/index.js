@@ -13,10 +13,10 @@ const questions = [
     'Please provide instructions for usage: ==>',
     'If you would like other devs to be able to contribute, please explain how to do so: ==>',
     'Select a license from these options:',
-    'Please provide a test/ for your app and explain how to run them: ==>',
+    'Please provide testing for your app and explain how to run them: ==>',
     'Enter Github Username: ==>',
     'Enter emailL ==>',
-    'How can people reach you with additional questions? ==>'
+    'How can people reach you with additional questions? ==>',
 ];
 
 // TODO: Create a function to write README file
@@ -134,7 +134,7 @@ function init() {
             },
         ])
         .then((response) => {
-            writeToFile('README.md', generateMarkdown(response));
+            writeToFile('demoREADME.md', generateMarkdown(response));
         });
 };
 
