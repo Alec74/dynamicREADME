@@ -1,11 +1,11 @@
-# Demo README ![License: example](https://img.shields.io/badge/License-example-yellow.svg)
+# Project Title ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
   ## Description
 
-  * example
-  * example
-  * example
-  * example
+  * Motivation
+  * For cats
+  * More cats
+  * The amount of cats
   
   ## Table of Contents
   * [Installation](#installation)
@@ -15,29 +15,29 @@
   
   ## Installation
 
-  example
+  Installation
 
   ## Usage
 
-  example
+  Find a cat
 
   ## Contributing
 
-  example
+  Contributions
 
   ## Test
 
-  example
+  Testing options
   
   ## Questions
 
-  example
+  via email or github
 
-  * Github Profile: [example](https://github.com/example)
-  * example
+  * Github Profile: [Alec74](https://github.com/Alec74)
+  * example@email.com
   
   ## License
-  Notice: This application is licensed under example
+  Notice: This application is licensed under MIT
   
   [Link](../LICENSE)
     

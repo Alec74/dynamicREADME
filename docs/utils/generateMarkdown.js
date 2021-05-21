@@ -13,7 +13,7 @@ function renderLicenseBadge(license) {
 function renderLicenseLink(license) {
   if (license){
     return `
-  [Link](../LICENSE)
+  [License-Link](../LICENSE)
     `;
   }else{
     return '';
