@@ -1,11 +1,11 @@
-# cats ![License: duck](https://img.shields.io/badge/License-duck-yellow.svg)
+# cats ![License: giraffe](https://img.shields.io/badge/License-giraffe-yellow.svg)
 
   ## Description
 
   * dogs
-  * elephants
-  * ostrich
-  * giraffe
+  * elephant
+  * donkey
+  * zebra
   
   ## Table of Contents
   * [Installation](#installation)
@@ -15,11 +15,11 @@
   
   ## Installation
 
-  pony
+  horse
 
   ## Usage
 
-  horse
+  duck
 
   ## Contributing
 
@@ -27,17 +27,17 @@
 
   ## Test
 
-  donkey
+  pony
   
   ## Questions
 
-  bunny
+  hawk
 
-  * Github Profile: [bird](https://github.com/bird)
-  * goat
+  * Github Profile: [chicken](https://github.com/chicken)
+  * bird
   
   ## License
-  Notice: This application is licensed under duck
+  Notice: This application is licensed under giraffe
   
   [License-Link](../LICENSE)
     
