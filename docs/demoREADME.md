@@ -1,11 +1,11 @@
-# Project Title ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+# cats ![License: duck](https://img.shields.io/badge/License-duck-yellow.svg)
 
   ## Description
 
-  * Motivation
-  * For cats
-  * More cats
-  * The amount of cats
+  * dogs
+  * elephants
+  * ostrich
+  * giraffe
   
   ## Table of Contents
   * [Installation](#installation)
@@ -15,30 +15,30 @@
   
   ## Installation
 
-  Installation
+  pony
 
   ## Usage
 
-  Find a cat
+  horse
 
   ## Contributing
 
-  Contributions
+  chicken
 
   ## Test
 
-  Testing options
+  donkey
   
   ## Questions
 
-  via email or github
+  bunny
 
-  * Github Profile: [Alec74](https://github.com/Alec74)
-  * example@email.com
+  * Github Profile: [bird](https://github.com/bird)
+  * goat
   
   ## License
-  Notice: This application is licensed under MIT
+  Notice: This application is licensed under duck
   
-  [Link](../LICENSE)
+  [License-Link](../LICENSE)
     
   
